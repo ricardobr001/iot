@@ -4,7 +4,11 @@
 #######################################################
 #
 #                                                        
+# CAIO HENRIQUE GIACOMELLI
+# RAFAEL PEREIRA ALONSO
+# RICARDO MENDES LEAL JUNIOR 
 # ROBSON MIRIM DO CARMO
+
 # Atividade 5 -> Verifica Tilt Conectado.desconectado
 #######################################################
 from libsoc_zero.GPIO import Tilt

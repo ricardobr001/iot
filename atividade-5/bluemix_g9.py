@@ -3,7 +3,11 @@
 #######################################################
 #
 # Programa publisher para eventos de sensor temp tilt    
+# CAIO HENRIQUE GIACOMELLI
+# RAFAEL PEREIRA ALONSO
+# RICARDO MENDES LEAL JUNIOR 
 # ROBSON MIRIM DO CARMO
+
 # Atividade 5 -> Exercicio 3           
 # Leitura para o IBM Watson IOT 
 # Device: rmc_device_id
