@@ -17,7 +17,7 @@ class Twitter:
         self.query = query
         self.primeira_busca = True
         self.twitter_id = None
-        self.emergencia = emergencia
+        self.emergencia = emergencia.lower()
         self.tempo = tempo
         self.qtdd_tweets = qtdd_tweets
 
@@ -38,7 +38,7 @@ class Twitter:
                 self.twitter_id = tweet['id']
 
             # Se encontrar a palavra de emergencia no tweet, retorna que deve enviar a mensagem
-            if self.emergencia in tweet['text'].encode('utf-8'):
+            if self.emergencia in tweet['text'].encode('utf-8').lower():
                 return True
 
             i += 1
@@ -75,7 +75,7 @@ class Twitter:
                 self.twitter_id = tweet['id']
 
             # Se encontrar a palavra de emergencia no tweet, retorna que deve enviar a mensagem
-            if self.emergencia in tweet['text'].encode('utf-8'):
+            if self.emergencia in tweet['text'].encode('utf-8').lower():
                 return self.qtdd_tweets + 1
 
             i += 1
