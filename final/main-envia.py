@@ -3,7 +3,7 @@ import time
 from ubidots import post_request
 
 TOKEN = "BBFF-m1tW3P8lTsfrogcltXCkXY0dDDfb9b"  # Put your TOKEN here
-DEVICE_LABEL = "teste"  # Put your device label here 
+DEVICE_LABEL = "iot"  # Put your device label here 
 
 i = 30
 
